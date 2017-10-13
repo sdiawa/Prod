@@ -8,9 +8,9 @@ import java.util.ArrayList;
 public class Joueur {
     private String nom;
     private int score;
-    private ArrayList<String> chevalet;
+    private ArrayList<Lettre> chevalet;
 
-    public Joueur(String nom, int score, ArrayList<String> chevalet) {
+    public Joueur(String nom, int score, ArrayList<Lettre> chevalet) {
         this.nom = nom;
         this.score = score;
         this.chevalet = chevalet;
@@ -32,11 +32,11 @@ public class Joueur {
         this.score = score;
     }
 
-    public ArrayList<String> getChevalet() {
+    public ArrayList<Lettre> getChevalet() {
         return chevalet;
     }
 
-    public void setChevalet(ArrayList<String> chevalet) {
+    public void setChevalet(ArrayList<Lettre> chevalet) {
         this.chevalet = chevalet;
     }
 }
