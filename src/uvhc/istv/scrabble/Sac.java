@@ -12,7 +12,7 @@ public class Sac {
 	public ArrayList<Lettre> sac;
 
 	public Sac() {
-		ArrayList<Lettre> sac = new ArrayList<Lettre>();
+		sac = new ArrayList<Lettre>();
 	}
 
 	public void generer2(Lettre l, int n) {
