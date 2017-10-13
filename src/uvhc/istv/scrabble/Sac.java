@@ -3,6 +3,10 @@ package uvhc.istv.scrabble;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @author Adrien Jablonski (@Flakkles)
+ */
+
 public class Sac {
 
 	public ArrayList<Lettre> sac;
@@ -13,7 +17,7 @@ public class Sac {
 
 	public void generer2(Lettre l, int n) {
 		for (int i = 0; i < n; i++)
-			this.add(l);
+			sac.add(l);
 	}
 
 	public void generer() {
