@@ -1,5 +1,9 @@
 package uvhc.istv.scrabble;
 
+/*
+ * @author Bryton Lacquement (@bminusl)
+ */
+
 public enum Lettre {
 
 	JOKER(0),
