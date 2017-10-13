@@ -22,33 +22,33 @@ public class Sac {
 
 	public void generer() {
 
-		sac.generer2(Lettre.A, 9);
-		sac.generer2(Lettre.B, 2);
-		sac.generer2(Lettre.C, 2);
-		sac.generer2(Lettre.D, 3);
-		sac.generer2(Lettre.E, 15);
-		sac.generer2(Lettre.F, 2);
-		sac.generer2(Lettre.G, 2);
-		sac.generer2(Lettre.H, 2);
-		sac.generer2(Lettre.I, 8);
-		sac.generer2(Lettre.J, 1);
-		sac.generer2(Lettre.K, 1);
-		sac.generer2(Lettre.L, 5);
-		sac.generer2(Lettre.M, 3);
-		sac.generer2(Lettre.N, 6);
-		sac.generer2(Lettre.O, 6);
-		sac.generer2(Lettre.P, 2);
-		sac.generer2(Lettre.Q, 1);
-		sac.generer2(Lettre.R, 6);
-		sac.generer2(Lettre.S, 6);
-		sac.generer2(Lettre.T, 6);
-		sac.generer2(Lettre.U, 6);
-		sac.generer2(Lettre.V, 2);
-		sac.generer2(Lettre.W, 1);
-		sac.generer2(Lettre.X, 1);
-		sac.generer2(Lettre.Y, 1);
-		sac.generer2(Lettre.Z, 1);
-		sac.generer2(Lettre.JOKER, 2);
+		generer2(Lettre.A, 9);
+		generer2(Lettre.B, 2);
+		generer2(Lettre.C, 2);
+		generer2(Lettre.D, 3);
+		generer2(Lettre.E, 15);
+		generer2(Lettre.F, 2);
+		generer2(Lettre.G, 2);
+		generer2(Lettre.H, 2);
+		generer2(Lettre.I, 8);
+		generer2(Lettre.J, 1);
+		generer2(Lettre.K, 1);
+		generer2(Lettre.L, 5);
+		generer2(Lettre.M, 3);
+		generer2(Lettre.N, 6);
+		generer2(Lettre.O, 6);
+		generer2(Lettre.P, 2);
+		generer2(Lettre.Q, 1);
+		generer2(Lettre.R, 6);
+		generer2(Lettre.S, 6);
+		generer2(Lettre.T, 6);
+		generer2(Lettre.U, 6);
+		generer2(Lettre.V, 2);
+		generer2(Lettre.W, 1);
+		generer2(Lettre.X, 1);
+		generer2(Lettre.Y, 1);
+		generer2(Lettre.Z, 1);
+		generer2(Lettre.JOKER, 2);
 	}
 
 	public void melanger() {
